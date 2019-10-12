@@ -1,5 +1,5 @@
-const TCRPartyPoints = artifacts.require('./TCRPartyPoints.sol');
+const PizzaPartyPoints = artifacts.require('./PizzaPartyPoints.sol');
 
 module.exports = function (deployer, network, accounts) {
-  return deployer.deploy(TCRPartyPoints)
+  return deployer.deploy(PizzaPartyPoints)
 };
